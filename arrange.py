@@ -1,4 +1,4 @@
-def arrange(array):#全排列数组-通过递归
+def arrange(array):#
     output = []
     if len(array) == 1:
         return [array]#当数组只有一个元素时直接返回该数组
